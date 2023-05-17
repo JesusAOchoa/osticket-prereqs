@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/ZOUm27S.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket -  Prerequisites and Installation</h1>
 osTicket is a widely-used open-source support system that offers a seamless integration of inquiries generated through email, phone, and web-based forms into a user-friendly multi-user web interface. It provides a centralized platform to manage, organize, and archive all support requests and responses, allowing you to deliver high-quality service to your customers. This tutorial will guide you through the process of installing osTicket, including the prerequisites and necessary steps for setup..<br />
 
 <h2>Technologies and Environments Used</h2>
