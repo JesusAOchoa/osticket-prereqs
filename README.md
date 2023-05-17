@@ -3,8 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-Widely-used the open source support system osTicket seamlessly integrates inquieries created via email, phone and web-based forms into a simple easy-to-use multi-user web interface. Manage, organize and archive all your support requests and responses in one place while providing your customers the high quality service they deserve.
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+osTicket is a widely-used open-source support system that offers a seamless integration of inquiries generated through email, phone, and web-based forms into a user-friendly multi-user web interface. It provides a centralized platform to manage, organize, and archive all support requests and responses, allowing you to deliver high-quality service to your customers. This tutorial will guide you through the process of installing osTicket, including the prerequisites and necessary steps for setup..<br />
 
 <h2>Technologies and Environments Used</h2>
 
@@ -23,27 +22,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 
 <h2>Installation Steps</h2>
-Welcome to this tutorial!
+Good day and welcome to the first part of the tutorial!
 
-Let's get started quickly by creating our resource group and virtual machine (VM) in the Microsoft Azure portal. In order to protect our physical machine from any event that may occur, we will use a VM and connect to it via RDP (Remote Desktop Protocol) for the next steps in our tutorial.
+Let's dive right in by creating a resource group and virtual machine (VM) in the Microsoft Azure portal. This way, we can protect our physical machine and ensure a smooth process. We'll connect to the VM using Remote Desktop Protocol (RDP) for the next steps in our tutorial.
 
 <img src="https://i.imgur.com/quWtguU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now ,simply connect to our newly created VM via RDP using the VM public IPv4 address. 
-Note:If you are a Mac user, you will have to download Microsoft RDP to be able to remotely connect to the VM.
+Now, all you need to do is connect to our freshly created VM using RDP and the VM's public IPv4 address. Just a quick note: if you're using a Mac, make sure to download Microsoft RDP in order to establish a remote connection to the VM.
 <img src="https://i.imgur.com/jcHgeUc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Great!  Now that you are connected to your VM you will have to enable **IIS (Internet Information Services)**. To do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select **"Turn Windows features On or Off"**> 4- Enable the **IIS** (Internet Information Services) > 5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-Check the **CGI box and click OK to install**.
+Great!  Now that you are in your VM you will have to enable **IIS (Internet Information Services)**. To do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select **"Turn Windows features On or Off"**> 4- Enable the **IIS** (Internet Information Services) > 5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-Check the **CGI box and click OK to install**.
 
 
 <img src="https://i.imgur.com/WTZReTK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Perfect! Now that you have enabled IIS we need to install Web Platform Installer. 
-Simply click  the file and install the Web Platform Installer
+Now, install web platform installer
 </p>
 <br />
 <p>
@@ -79,7 +76,7 @@ From the installation files install VC_redist.x86.exe.
 </p>
 <p></p>
 <br />
-From the installation files install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+From installation files install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
@@ -126,7 +123,8 @@ Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the
 <p></p>
 <br />
 
-After changing the ost-config.php file and clicking continue and you should see the following screen
+
+Once you've made the necessary changes to the ost-config.php file, click on the "Continue" button. You should be greeted with the following screen:
 
 <p>
 <img src="https://i.imgur.com/ezp9fFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -141,27 +139,25 @@ After saving you should see this screen. Click continue at the bottom of the scr
 <p></p>
 <br />
 
-Congratulations! Your osTicket installation has been completed successfully.
+Great job! You have successfully completed the installation of osTicket. Congratulations!
 <p>
 <img src="https://i.imgur.com/8QmIKZo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
 
-From the installation files install HeidiSQL
-Open Heidi SQL
-Create a new session, root/Password1, Connect to the session, Create a database called “osTicket”, Click Open
+To begin, install HeidiSQL using the installation files. After the installation is complete, open HeidiSQL. Within HeidiSQL, create a new session with the credentials "root" for the username and "Password1" for the password. Connect to the session and proceed to create a database named "osTicket"(AND MAKE SURE IT SAIS OSTICKET).
 
 <img src="https://i.imgur.com/qcY4V4w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
 
-Success! You made it. You have installed osTicket! 
+LETS GO! You have now installed osTicket
 
 <p>
 <img src="https://i.imgur.com/m0pfONL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-Thank You for reading!
-For the the next tutorial in this series go [here](https://github.com/JesusAOchoa/post-install-config)
+Thanks for reading!
+For the the next tutorial go [here](https://github.com/JesusAOchoa/post-install-config)
