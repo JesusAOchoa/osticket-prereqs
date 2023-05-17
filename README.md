@@ -155,9 +155,5 @@ To begin, install HeidiSQL using the installation files. After the installation 
 
 LETS GO! You have now installed osTicket
 
-<p>
-<img src="https://i.imgur.com/m0pfONL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
 Thanks for reading!
 For the the next tutorial go [here](https://github.com/JesusAOchoa/post-install-config)
