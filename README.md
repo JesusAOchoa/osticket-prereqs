@@ -30,6 +30,7 @@ Let's dive right in by creating a resource group and virtual machine (VM) in the
 </p>
 <p>
 Now, all you need to do is connect to our freshly created VM using RDP and the VM's public IPv4 address. Just a quick note: if you're using a Mac, make sure to download Microsoft RDP in order to establish a remote connection to the VM.
+ 
 <img src="https://i.imgur.com/jcHgeUc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
